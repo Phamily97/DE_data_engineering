@@ -8,17 +8,12 @@ CREATE OR ALTER PROCEDURE sp_insert_supplier(
 AS
 BEGIN SET NOCOUNT ON;
 	/*Checks for params*/
-
-	
-
 	IF (SELECT COUNT(1)
 		FROM sup_supplier sup WITH (NOLOCK)
 		WHERE sup.Contact LIKE LTRIM(RTRIM(@Contact))) > 0
 	BEGIN
 		; THROW 50000, 'Unavailable phone number', 1;
 	END
-
-	
 
 	IF(SELECT COUNT(1)
 		FROM sup_supplier sup WITH(NOLOCK)
