@@ -1,0 +1,2 @@
+This directory will house all python scripts. This will include scripts to ingest data through APIs, web scraping, and others.
+These scripts will mainly be responsible for reading, transforming and moving data around.

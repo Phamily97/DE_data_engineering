@@ -1,0 +1,2 @@
+This directory will house all the stored procudures and functions for this project. As the current scope of the project
+does not include a front-end interface, we'll go ahead and simulate requests with stored procedure and function calls.

@@ -1,0 +1,1 @@
+This directory houses all the SQL table that will be used in this project
