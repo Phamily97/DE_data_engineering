@@ -1,0 +1,51 @@
+product_name,description,refno,serialno,unit_cost,unit_sell,markup,qty,tax,type_id
+"Wireless Mouse","Ergonomic 2.4GHz wireless mouse","REF001","SN1001",12.5,19.99,59.92,150,10.0,1
+"Gaming Keyboard","Mechanical keyboard with RGB lighting","REF002","SN1002",35.0,59.0,68.57,75,10.0,1
+"Office Chair",,"REF003","SN1003",60.0,99.0,65.0,40,10.0,2
+"27-inch Monitor","4K UHD LED monitor","REF004","SN1004",180.0,249.99,38.88,30,10.0,1
+"USB-C Hub","USB-C adapter with HDMI",,"SN1005",22.0,35.0,59.09,120,10.0,3
+"External SSD","1TB portable SSD","REF006","SN1006",95.0,139.99,47.36,25,10.0,1
+"Bluetooth Speaker","Waterproof speaker","REF007","SN1007",18.0,29.99,66.61,60,10.0,3
+"Webcam","Full HD webcam","REF008","SN1008",15.0,25.0,66.66,90,10.0,1
+"Laptop Stand","Adjustable aluminum stand","REF009","SN1009",,16.5,65.0,,10.0,
+"Surge Protector","6-outlet protector","REF010","SN1010",8.0,13.99,74.87,300,10.0,3
+"Graphic Tablet","Drawing tablet with stylus","REF011","SN1011",59.0,89.0,50.84,45,10.0,2
+"Router","WiFi 6 router","REF012","SN1012",85.0,129.99,52.93,35,10.0,3
+"Smart Plug","WiFi smart plug","REF013","SN1013",10.0,15.0,50.0,150,10.0,3
+"LED Desk Lamp","Dimmable desk lamp","REF014","SN1014",22.0,35.0,59.09,80,10.0,2
+"Monitor Arm","Adjustable monitor mount","REF015","SN1015",40.0,65.0,62.5,50,10.0,2
+"Portable Projector","Mini portable projector","REF016","SN1016",120.0,180.0,50.0,20,10.0,4
+"Smartphone Stand",,"REF017","SN1017",5.0,9.99,99.8,200,10.0,2
+"Noise-Canceling Headphones","Over-ear headphones","REF018","SN1018",60.0,89.99,49.98,60,10.0,4
+"Ergonomic Keyboard","Split layout keyboard","REF019","SN1019",45.0,70.0,55.55,40,10.0,1
+"Portable Charger","10,000mAh power bank","REF020","SN1020",20.0,32.0,60.0,90,10.0,3
+"Thermal Printer","Label printer for small biz","REF021","SN1021",65.0,95.0,46.15,15,10.0,3
+"Laptop Cooler","Cooling pad","REF022","SN1022",18.0,28.0,55.55,85,10.0,2
+"Mechanical Pencil","Refillable mechanical pencil","REF023","SN1023",3.0,5.0,66.66,300,10.0,5
+"Notebook","Hardcover lined notebook","REF024","SN1024",4.5,8.0,77.77,250,10.0,5
+"Standing Desk","Height-adjustable desk","REF025","SN1025",240.0,349.0,45.41,12,10.0,2
+"Whiteboard","Magnetic dry erase board","REF026","SN1026",35.0,60.0,71.42,20,10.0,2
+"Calculator","Basic desktop calculator",,"SN1027",6.0,9.0,50.0,200,10.0,5
+"Filing Cabinet","3-drawer metal cabinet","REF028","SN1028",75.0,115.0,53.33,18,10.0,2
+"HDMI Cable","2m HDMI 2.0 cable","REF029","SN1029",2.5,4.0,60.0,500,10.0,3
+"Ethernet Cable","Cat6 LAN cable","REF030","SN1030",1.5,2.5,66.66,600,10.0,3
+"Smart Lightbulb","WiFi lightbulb","REF031","SN1031",12.0,18.5,54.16,100,10.0,3
+"Wrist Rest","Memory foam wrist pad","REF032","SN1032",7.0,11.0,57.14,130,10.0,2
+"Printer","Wireless inkjet printer","REF033","SN1033",55.0,85.0,54.54,25,10.0,4
+"Smartwatch","Fitness tracking watch","REF034","SN1034",80.0,119.0,48.75,30,10.0,4
+"File Folder","Expanding folder","REF035","SN1035",3.0,4.5,50.0,180,10.0,5
+"Keyboard Cover","Silicone laptop cover","REF036","SN1036",2.0,3.5,75.0,250,10.0,5
+"Card Reader","USB 3.0 SD card reader","REF037","SN1037",8.0,12.0,50.0,90,10.0,3
+"Tripod","Flexible tripod stand","REF038","SN1038",15.0,22.0,46.66,40,10.0,3
+"Pen Holder","Desk organizer","REF039","SN1039",5.0,8.0,60.0,160,10.0,5
+"Cable Clips","Cable management set","REF040","SN1040",3.0,5.5,83.33,180,10.0,5
+"Document Scanner","Compact scanner","REF041","SN1041",95.0,149.0,56.84,10,10.0,3
+"Desk Mat","Large leather desk mat","REF042","SN1042",20.0,29.0,45.0,75,10.0,2
+"USB Extension","1.5m USB extension","REF043","SN1043",2.0,3.0,50.0,300,10.0,3
+"Label Maker","Handheld labeler","REF044","SN1044",35.0,55.0,57.14,28,10.0,3
+"Paper Shredder","Cross-cut shredder","REF045","SN1045",60.0,95.0,58.33,22,10.0,3
+"Pen","Ballpoint pen set","REF046","SN1046",1.0,1.8,80.0,1000,10.0,5
+"Binder","A4 ring binder","REF047","SN1047",3.5,5.5,57.14,220,10.0,5
+"Clipboard","Plastic clipboard","REF048","SN1048",2.0,3.5,75.0,180,10.0,5
+"Sticky Notes",,"REF049","SN1049",1.5,2.5,66.66,400,10.0,5
+"Drawing Pen Set","Technical drawing pens","REF050","SN1050",25.0,39.0,56.0,50,10.0,5
