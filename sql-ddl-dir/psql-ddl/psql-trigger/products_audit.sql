@@ -1,4 +1,11 @@
---trigger to mock CDC
+/*trigger to mock CDC
+
+Example data:
+table_name    operation_type    link_id     changed_data                                    changed_at
+"products"	    3	            5	        "[{""description"": ""4K UHD LED monitor""}]"	"2025-07-26 23:21:13.366285"
+"products"	    4	            5	        "[{""description"": ""HEHE""}]"	                "2025-07-26 23:21:13.366285"
+
+*/
 CREATE OR REPLACE FUNCTION products_audit()
     RETURNS TRIGGER AS $$
     BEGIN
