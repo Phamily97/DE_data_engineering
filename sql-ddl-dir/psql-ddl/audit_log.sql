@@ -5,3 +5,8 @@ CREATE TABLE audit_log (
 	,changed_data JSONB
 	,changed_at TIMESTAMP
 )
+
+--query for restarting pipeline. Testing only
+UPDATE audit_sync
+SET last_sync = NULL
+WHERE audit_sync_id = 1
