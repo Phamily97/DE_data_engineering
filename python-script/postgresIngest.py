@@ -1,5 +1,7 @@
 import pandas as py
 from sqlalchemy import create_engine
+import os
+from dotenv import load_dotenv
 
 dir = 'C:/Users/User/OneDrive/Documents/GitHub/DE_data_engineering/'
 
@@ -20,14 +22,21 @@ for x in import_exi:
         not_exi = False
         break
 
-# importing data into postgres
 # requires specific formatted CSV/text file
 if not_exi:
-    connection = "postgresql+psycopg2://postgres:password@localhost/local"
-    engine = create_engine(connection)
+    env_dir = 'C:/Users/User/OneDrive/Documents/config'
+    env_path = os.path.join(env_dir, '.env')
+    load_dotenv(dotenv_path=env_path)
+
+    pg_user = os.getenv("PG_DB_USER")
+    pg_password = os.getenv("PG_DB_PASSWORD")
+    pg_host = os.getenv("PG_DB_HOST")
+    pg_db = os.getenv("PG_DB_NAME")
+
+    engine = create_engine(f"postgresql+psycopg2://{pg_user}:{pg_password}@{pg_host}/{pg_db}")
     try:
         df.to_sql('products', engine, index=False, if_exists='append')
         df['has_imported'] = 1
-        # df.to_csv(f'{dir}imported_new_products_26072025.txt', mode='w')
+        df.to_csv(f'{dir}imported_new_products_26072025.txt', mode='w')
     except IOError:
         print('Unexpected Error')
