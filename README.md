@@ -1,11 +1,13 @@
-This project serves as a playground for SQL and Python relating to Data Engineering.
+SQLやPythonなどのツールによるパイプラインを作成するデータエンジニアプロジェクト
+現在動いている特徴：
+  1. PostgreSQLデータベースにモックデータを移動する簡単なETL
+  2. SQLServerのChange-Data－Capture/CDCのようなデータの変更をレコードになるトリガーを作成で特別なテーブルに保存
+  3. 変更をしたレコードはPostgreSQLからMySQLに移動するパイプライン。
+  4. MySQLからデータを綺麗に出すファンクション（アウトプットはJSON）    
+  5. FastAPIというフレームワークでデータを読む
 
-Currently working on mocking PostgreSQL to MySQL End-to-end pipelines including:
-  1. Simple ingestion pipeline for mock data
-  2. Trigger to capture changes in postgreSQL table and logging it into an audit table
-  3. ETL for moving audit data to MySQL instance            
-  4. Function/Stored procedure to get data out of MySQL as JSON
-  5. FastAPI to fetch data from audit table
+使える場合：
+SQLServerのCDCは溢れるデータを生む問題があります。その場合は他のデータベースに移動すれば保存する値段が減るようになります。更にパフォーマンス的にメリットも見えます。
 
-Use Case:
-Moving data to different storage solutions for performance/cost benefits.
+未来開発するつもりところ：
+Grafanaにデータの統計
