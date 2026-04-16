@@ -11,6 +11,8 @@ SQL Server's CDC has the problem of generating overflowing data. In that case, m
 Future development plans:
 Data statistics in Grafana
 
+
+
 SQLやPythonなどのツールによるパイプラインを作成するデータエンジニアプロジェクト
 現在動いている特徴：
   1. PostgreSQLデータベースにモックデータを移動する簡単なETL
